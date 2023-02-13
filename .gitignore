@@ -1,0 +1,38 @@
+# Unity generated meta files
+*.meta
+
+# Unity generated file on crash reports
+sysinfo.txt
+
+# Builds
+Builds/
+
+# Library directory for Unity projects
+Library/
+
+# Temp auto-generated Unity files
+Temp/
+
+# Unity obj files
+*.obj
+
+# Unity prefab temporary files
+*.prefab.meta
+
+# Unity cache files
+*.asset.meta
+*.asset
+
+# Unity generated project lock file
+ProjectSettings/ProjectVersion.txt
+
+# Visual Studio / MonoDevelop generated files
+*.userprefs
+*.sln
+*.user
+*.pidb
+*.suo
+*.dsql
+*.unityproj
+*.dll
+*.exe
