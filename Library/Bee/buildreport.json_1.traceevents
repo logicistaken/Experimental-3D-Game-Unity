@@ -1,0 +1,510 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1667922719929185, "dur": 928508, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667922719929643, "dur": 16296, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667922719945943, "dur": 49236, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667922719995182, "dur": 501008, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667922720496192, "dur": 353979, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667922720850174, "dur": 7517, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667922720860754, "dur": 31, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1667922720183981, "dur": 276772, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667922720186268, "dur": 80514, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667922720381234, "dur": 14254, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667922720395494, "dur": 65232, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667922720397775, "dur": 60667, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667922720473200, "dur": 2594, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667922720471798, "dur": 4064, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667922720862480, "dur": 883, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1667922720563339, "dur":2543, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667922720565903, "dur":86, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1667922720566016, "dur":30, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1667922720566046, "dur":563, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1667922720566659, "dur":1556, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667922720568215, "dur":3, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667922720812423, "dur":46, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667922720812470, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667922720812486, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667922720812490, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667922720812503, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667922720812506, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667922720812522, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667922720812525, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667922720812540, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667922720812544, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667922720812555, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667922720812558, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667922720812571, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667922720812575, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667922720812586, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667922720812588, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667922720812602, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667922720812637, "dur":5, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667922720812809, "dur":3666, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1667922720569153, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667922720569154, "dur":12753, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667922720581919, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1667922720582230, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667922720605917, "dur":50960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1667922720656997, "dur":564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667922720657568, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667922720657581, "dur":5425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667922720663384, "dur":488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667922720663880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667922720663895, "dur":2034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667922720666023, "dur":345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667922720666374, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667922720666388, "dur":4962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667922720671508, "dur":361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667922720671876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667922720671891, "dur":3283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667922720675278, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667922720675582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667922720675596, "dur":4279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667922720679977, "dur":417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667922720680400, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667922720680414, "dur":2795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667922720683406, "dur":985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667922720684398, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667922720684414, "dur":3019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667922720688067, "dur":1329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667922720689402, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667922720689415, "dur":3663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667922720693231, "dur":1349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667922720694586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667922720694598, "dur":4938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667922720699652, "dur":833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667922720700492, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667922720700507, "dur":4156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667922720704761, "dur":3266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667922720708034, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667922720708081, "dur":13315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667922720721503, "dur":1164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667922720722674, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667922720722695, "dur":3131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667922720725952, "dur":10997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667922720736956, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667922720736970, "dur":7349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667922720744414, "dur":3366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667922720747788, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667922720747803, "dur":6552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667922720754460, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1667922720754772, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667922720754785, "dur":3643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1667922720758550, "dur":285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1667922720758841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667922720758853, "dur":3894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1667922720762977, "dur":49379, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667922720568650, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667922720568651, "dur":13550, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667922720582202, "dur":1279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1667922720583487, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667922720590348, "dur":14814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1667922720605270, "dur":1812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1667922720607088, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667922720607102, "dur":4298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1667922720611517, "dur":6545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1667922720618082, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667922720618106, "dur":12941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1667922720631508, "dur":589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667922720632134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667922720632145, "dur":3237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667922720635480, "dur":2537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667922720638024, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667922720638038, "dur":4017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667922720642158, "dur":353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667922720642517, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667922720642530, "dur":4427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667922720647207, "dur":1089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667922720648557, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667922720648571, "dur":4154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667922720652864, "dur":405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667922720653276, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667922720653290, "dur":3888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667922720657276, "dur":524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667922720657807, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667922720657819, "dur":3649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667922720661610, "dur":341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667922720661958, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667922720661972, "dur":5935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667922720668008, "dur":357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667922720668373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667922720668388, "dur":3219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667922720671708, "dur":453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667922720672167, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667922720672180, "dur":2728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667922720675012, "dur":338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667922720675389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667922720675402, "dur":7921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667922720683446, "dur":1742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667922720685195, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667922720685209, "dur":3970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667922720689275, "dur":2081, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667922720691366, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667922720691424, "dur":3058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667922720694578, "dur":634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667922720695219, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667922720695233, "dur":7163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667922720702629, "dur":632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667922720703268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667922720703284, "dur":3363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667922720706725, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667922720706951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667922720706961, "dur":2757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667922720709804, "dur":1618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667922720711429, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667922720711441, "dur":5034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667922720716600, "dur":4864, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667922720721471, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667922720721484, "dur":3464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667922720725053, "dur":11194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667922720736254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667922720736266, "dur":13645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667922720750014, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1667922720750145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667922720750182, "dur":8488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1667922720758772, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1667922720759057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667922720759067, "dur":3011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1667922720762201, "dur":49929, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667922720568972, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667922720568973, "dur":13161, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667922720582135, "dur":495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1667922720582636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667922720590723, "dur":7845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1667922720598680, "dur":964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1667922720599651, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667922720599919, "dur":7420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1667922720607460, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1667922720607711, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667922720607724, "dur":3093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1667922720610918, "dur":161870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667922720772832, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667922720772846, "dur":38985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667922720811948, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1667922720811955, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667922720568384, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667922720568385, "dur":13515, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667922720581919, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1667922720581931, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667922720584526, "dur":1237, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1667922720585772, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1667922720585938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667922720588263, "dur":4793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1667922720593060, "dur":1359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1667922720594426, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667922720594636, "dur":3291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1667922720598029, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1667922720598318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667922720598332, "dur":2003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1667922720600447, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1667922720600661, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667922720600761, "dur":2899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1667922720603778, "dur":842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1667922720604626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667922720604763, "dur":5049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1667922720609919, "dur":32909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667922720642835, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667922720642998, "dur":48472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667922720691600, "dur":2648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667922720694255, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667922720694270, "dur":3268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667922720697714, "dur":1140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667922720698899, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667922720698914, "dur":3068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667922720702084, "dur":611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667922720702702, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667922720702716, "dur":4254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667922720707063, "dur":3229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667922720710299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667922720710311, "dur":6484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667922720717632, "dur":2466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667922720720104, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667922720720123, "dur":3460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667922720724417, "dur":3727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667922720728151, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667922720728167, "dur":3869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667922720732175, "dur":5164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667922720737380, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667922720737393, "dur":6554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667922720744043, "dur":17206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667922720761256, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667922720761270, "dur":6095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667922720767460, "dur":44875, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667922720568515, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667922720568516, "dur":13727, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667922720582244, "dur":470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1667922720582719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667922720593509, "dur":14850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1667922720608472, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1667922720608669, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667922720608682, "dur":3272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1667922720612061, "dur":1298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments.exe" }}
+,{ "pid":12345, "tid":5, "ts":1667922720613365, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667922720613375, "dur":3189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments.exe" }}
+,{ "pid":12345, "tid":5, "ts":1667922720616646, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667922720616960, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667922720616972, "dur":9374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667922720626777, "dur":430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667922720627215, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667922720627229, "dur":2938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667922720630269, "dur":336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667922720630611, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667922720630623, "dur":2845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667922720633558, "dur":373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667922720633938, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667922720633951, "dur":4286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667922720638369, "dur":322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667922720638698, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667922720638710, "dur":3191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667922720642011, "dur":342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667922720642484, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667922720642501, "dur":3852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667922720646453, "dur":349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667922720646809, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667922720646823, "dur":2443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667922720649361, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667922720649679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667922720649691, "dur":2899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667922720652689, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667922720653008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667922720653026, "dur":2724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667922720655847, "dur":467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667922720656320, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667922720656336, "dur":2110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667922720658552, "dur":332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667922720658891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667922720658905, "dur":2893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667922720661904, "dur":338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667922720662249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667922720662262, "dur":30876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667922720693290, "dur":2030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667922720695327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667922720695339, "dur":24862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667922720720315, "dur":68205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667922720788532, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667922720788553, "dur":3147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667922720791802, "dur":20438, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667922720569070, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667922720569071, "dur":12838, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667922720581919, "dur":1190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1667922720583121, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667922720590321, "dur":15929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1667922720606354, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1667922720606557, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667922720606572, "dur":5392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1667922720612133, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1667922720612343, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667922720612768, "dur":11706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1667922720624585, "dur":354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667922720624945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667922720624957, "dur":2615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667922720627661, "dur":2181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667922720629850, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667922720629910, "dur":3415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667922720633428, "dur":634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667922720634068, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667922720634080, "dur":5146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667922720639327, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667922720639666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667922720639677, "dur":4755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667922720644533, "dur":543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667922720645084, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667922720645098, "dur":4603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667922720649829, "dur":1304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667922720651149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667922720651161, "dur":13665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667922720665016, "dur":547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667922720665569, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667922720665581, "dur":4517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667922720670218, "dur":327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667922720670552, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667922720670584, "dur":2906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667922720673596, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667922720673915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667922720673930, "dur":2331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667922720676355, "dur":337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667922720676698, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667922720676717, "dur":3637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667922720680447, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667922720680809, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667922720680823, "dur":6706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667922720687668, "dur":1757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667922720689431, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667922720689443, "dur":5613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667922720695352, "dur":1390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667922720696751, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667922720696767, "dur":7504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667922720704753, "dur":774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667922720705534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667922720705547, "dur":2714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667922720708364, "dur":12169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667922720720539, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667922720720551, "dur":9594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667922720730251, "dur":5584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667922720735841, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667922720735856, "dur":7231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667922720743188, "dur":1180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667922720744375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667922720744390, "dur":4383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667922720748867, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1667922720749003, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667922720751298, "dur":6804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1667922720758213, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1667922720758323, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667922720758334, "dur":2547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1667922720760994, "dur":51007, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667922720569123, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667922720569123, "dur":12781, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667922720581919, "dur":2020, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1667922720583946, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667922720590799, "dur":10584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1667922720601481, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1667922720601686, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667922720602374, "dur":2212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1667922720604694, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1667922720604899, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667922720604912, "dur":7601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1667922720612602, "dur":370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720612978, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667922720613753, "dur":2074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720615940, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720616259, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667922720616402, "dur":2428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720618957, "dur":334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720619297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667922720619312, "dur":4140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720623555, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720623854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667922720623867, "dur":3038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720627008, "dur":369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720627384, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667922720627398, "dur":2251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720629743, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720630043, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667922720630055, "dur":2726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720632946, "dur":1348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720634300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667922720634349, "dur":7673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720642124, "dur":605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720642736, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667922720642749, "dur":4329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720647183, "dur":334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720647645, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667922720647661, "dur":2868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720650750, "dur":341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720651099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667922720651117, "dur":2084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720653306, "dur":358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720653669, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667922720653681, "dur":3144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720656923, "dur":531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720657460, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667922720657474, "dur":3010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720660582, "dur":334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720660923, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667922720660938, "dur":3836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720664877, "dur":548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720665432, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667922720665446, "dur":4178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720669742, "dur":339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720670087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667922720670101, "dur":4784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720675100, "dur":2577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720677685, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667922720677698, "dur":5681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720683482, "dur":1510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720685000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667922720685014, "dur":3036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720688159, "dur":1194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720689360, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667922720689375, "dur":3240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720692717, "dur":1243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720693968, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667922720693983, "dur":2779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720696910, "dur":807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720697723, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667922720697737, "dur":2492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720700334, "dur":1000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720701341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667922720701355, "dur":3640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720705090, "dur":725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720705822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667922720705835, "dur":2936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720708864, "dur":1115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720709986, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667922720710000, "dur":2531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720712603, "dur":1967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720714592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667922720714606, "dur":3109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720717793, "dur":1352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720719201, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667922720719217, "dur":2574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720721908, "dur":1083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720722998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667922720723011, "dur":3144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720726290, "dur":1461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720727760, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667922720727779, "dur":3105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720730970, "dur":1302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720732279, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667922720732293, "dur":2331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720734709, "dur":3680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720738396, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667922720738410, "dur":7635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720746304, "dur":2085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720748395, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667922720748410, "dur":6009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667922720754539, "dur":602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1667922720755147, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667922720755159, "dur":2809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1667922720758084, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1667922720758191, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667922720758204, "dur":2349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1667922720760686, "dur":51317, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667922720569200, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667922720569201, "dur":13241, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667922720582443, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1667922720582668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667922720592096, "dur":16696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1667922720608895, "dur":3916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667922720612817, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667922720615007, "dur":4206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667922720619316, "dur":349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667922720619671, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667922720619684, "dur":3634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667922720623419, "dur":480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667922720623905, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667922720623917, "dur":3252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667922720627269, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667922720627585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667922720627596, "dur":4608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667922720632311, "dur":345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667922720632663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667922720632675, "dur":2262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667922720635024, "dur":367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667922720635397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667922720635409, "dur":2500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667922720638009, "dur":688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667922720638704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667922720638716, "dur":4552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667922720643435, "dur":28583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667922720672025, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667922720672037, "dur":3145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667922720675303, "dur":65504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667922720740816, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667922720740834, "dur":7855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667922720748795, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1667922720749085, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667922720750437, "dur":8142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1667922720758722, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1667922720758843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667922720758855, "dur":37749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/antlar16/OneDrive - Lrande/Skrivbordet/First Game Experiments_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1667922720796716, "dur":15501, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667922720820039, "dur":5233, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1667922720863549, "dur": 2066, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667922720860728, "dur": 4947, "ph": "X", "name": "Write chrome-trace events", "args": {} },
